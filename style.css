@@ -1,11 +1,53 @@
 *{
-    margin: auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    
+}
+
 header{
-    height: 50px;
+    width: 100%;
+    margin: 0 auto;
     background-color: orangered;
+
+}
+
+nav{
+    width: 70%;
+    margin: 0 auto;
+    height: 6rem;
     color: white;
+    
+}
+
+ul{
+    list-style: none;
+    padding-top: 1rem;
+    
+}
+
+li{
+    padding-right: 1rem;
+}
+
+.people{
+    position: absolute;
+
+}
+
+img{
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    left: calc(350% - 20px);
 }
