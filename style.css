@@ -30,6 +30,10 @@ nav{
     
 }
 
+#boolean{
+    width: 17rem;
+}
+
 ul{
     list-style: none;
     padding-top: 1rem;
@@ -45,9 +49,20 @@ li{
 
 }
 
-img{
+.logo{
     width: 100%;
     position: absolute;
     display: inline-block;
     left: calc(350% - 20px);
+}
+
+div.column{
+    width: calc(100% / 3);
+    text-align: center;
+    background-color: grey;
+}
+
+div.column img{
+    width: 60%;
+
 }
