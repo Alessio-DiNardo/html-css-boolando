@@ -23,7 +23,7 @@ header{
 }
 
 nav{
-    width: 70%;
+    max-width: 1200px;
     margin: 0 auto;
     height: 6rem;
     color: white;
@@ -31,20 +31,32 @@ nav{
 }
 
 main{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     padding-top: 3rem;
 
 }
 
-#boolean{
-    width: 17rem;
-}
-
 ul{
     list-style: none;
     padding-top: 1rem;
-    
+    width: 25%;
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: start;
+}
+
+
+#boolean{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.social{
+    width: 25%;
+    display: flex;
+    justify-content: end;
 }
 
 li{
@@ -58,9 +70,8 @@ li{
 
 .logo{
     width: 100%;
-    position: absolute;
-    display: inline-block;
-    left: calc(350% - 20px);
+    display: flex;
+    justify-content: center;
 }
 
 div.column{
@@ -84,6 +95,27 @@ span.discount{
     position: absolute;
 
     background-color: red;
-    top: 0%;
+    bottom: 5%;
     left: 0%;
+    font-size: 1.5rem;
+}
+
+span.sost{
+    position: absolute;
+
+    background-color: green;
+    bottom: 5%;
+    left: 5%;
+    left: 12%;
+    font-size: 1.5rem;
+
+}
+
+#red{
+    color:red
+}
+
+p,
+h1{
+    text-align: start;
 }
