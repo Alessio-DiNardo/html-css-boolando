@@ -4,3 +4,8 @@
     box-sizing: border-box;
 }
 
+header{
+    height: 50px;
+    background-color: orangered;
+    color: white;
+}
