@@ -64,15 +64,15 @@ li{
 }
 
 div.column{
-    
 
     width: calc(100% / 3);
     text-align: center;
-    
+    padding: 0 2rem;
 }
 
 div.column img{
-    width: 85%;
+    width: 100%;
+    
 
 }
 
@@ -84,6 +84,6 @@ span.discount{
     position: absolute;
 
     background-color: red;
-    top: 10%;
+    top: 0%;
     left: 0%;
 }
