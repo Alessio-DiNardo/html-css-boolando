@@ -74,6 +74,10 @@ li{
     justify-content: center;
 }
 
+.row{
+    padding-bottom: 3rem;
+}
+
 div.column{
 
     width: calc(100% / 3);
@@ -100,6 +104,15 @@ span.discount{
     font-size: 1.5rem;
 }
 
+.hearts{
+    position: absolute;
+
+    font-size: 3rem;
+    right: 0;
+    top: 1%;
+    background-color: white;
+}
+
 span.sost{
     position: absolute;
 
@@ -109,6 +122,15 @@ span.sost{
     left: 12%;
     font-size: 1.5rem;
 
+}
+
+span.soste{
+    position: absolute;
+
+    background-color: green;
+    bottom: 5%;
+    left: 0%;
+    font-size: 1.5rem;
 }
 
 #red{
