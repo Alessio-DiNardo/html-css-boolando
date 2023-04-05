@@ -30,6 +30,13 @@ nav{
     
 }
 
+main{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 3rem;
+
+}
+
 #boolean{
     width: 17rem;
 }
@@ -57,12 +64,22 @@ li{
 }
 
 div.column{
+    position: relative;
+
     width: calc(100% / 3);
     text-align: center;
-    background-color: grey;
+    
 }
 
 div.column img{
-    width: 60%;
+    width: 85%;
 
+}
+
+span.discount{
+    position: absolute;
+
+    background-color: red;
+    top: 10%;
+    left: 0%;
 }
