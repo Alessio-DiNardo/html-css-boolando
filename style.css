@@ -64,7 +64,7 @@ li{
 }
 
 div.column{
-    position: relative;
+    
 
     width: calc(100% / 3);
     text-align: center;
@@ -74,6 +74,10 @@ div.column{
 div.column img{
     width: 85%;
 
+}
+
+div.card{
+    position: relative;
 }
 
 span.discount{
